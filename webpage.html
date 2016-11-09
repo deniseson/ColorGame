@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" id="theHtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Guessing Game</title>
+    <script src="colorJava.js"></script>
+</head>
+
+<header>
+    <style>
+        html{
+            padding: 100px 100px 100px 100px;
+        }
+        body {
+            background-color: gray;
+            background-image: url("paint.jpg");
+
+        }
+
+        h1 {
+            color: white;
+            font-size: 45px;
+            font-family: "American Typewriter";
+            font-style: oblique;
+        }
+        h2 {
+            color: cadetblue;
+            font-size: 28px;
+            font-family: "American Typewriter";
+        }
+        h3 {
+            color: gray;
+            font-size: 28px;
+            font-family: "monospace";
+        }
+        h4 {
+                color: gray;
+            font-family: "American Typewriter";
+            font-size: 28px;
+            }
+        fieldset {
+            border: #ffffff solid 8px;
+            background-image: url("img.jpeg");
+
+
+
+
+        }
+        input{
+            content: 'text';
+
+        }
+
+
+    </style>
+</header>
+
+
+
+
+<body>
+<fieldset>
+<center>
+<h1> Color Guessing Game</h1>
+</center>
+
+
+    <p><h2><center>
+I am thinking of one of these colors:
+</h2></p></center>
+
+
+<p><h3><center>
+blue, cyan, gold, gray, green, magenta, orange, red, white, yellow
+</h3></p></center>
+
+
+</fieldset>
+
+
+<fieldset>
+<p>
+    <center>
+<h4>What color am I thinking of?</h4>
+    </center>
+</p>
+
+
+<center><input type="button" value="Click to Play" onclick="guess()" ></center>
+
+</fieldset>
+
+</body>
+</html>
